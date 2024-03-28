@@ -11,6 +11,10 @@ const Main = styled.main`
   border-radius: var(--border-radius-lg);
 
   /* width: 90%; */
+
+  @media (max-width: 39em) {
+    padding: 4rem 0.6rem;
+  }
 `;
 
 export default Main;

@@ -17,6 +17,10 @@ const StyledDiv = styled.div`
     props.type === "secondary" &&
     css`
       gap: 2rem;
+
+      @media (max-width: 39em) {
+        gap: 0.6rem;
+      }
     `}
 `;
 export default StyledDiv;

@@ -24,6 +24,11 @@ const StyledNotification = styled.div`
     css`
       background-color: var(--White);
     `}
+
+    @media (max-width:39em) {
+    gap: 0.6rem;
+    padding: 0.6rem;
+  }
 `;
 
 export default StyledNotification;
